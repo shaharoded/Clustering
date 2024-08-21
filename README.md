@@ -18,5 +18,6 @@ git remote add origin https://github.com/shaharoded/Clustering.git
 git remote -v
 git add .
 git commit -m "message"
-git push -u origin main
+git branch -m master main
+git push -f origin main
 ````
